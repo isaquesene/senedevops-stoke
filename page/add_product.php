@@ -289,7 +289,7 @@
             <div class="page-title">
               <div class="row">
                 <div class="col-12 col-sm-6">
-                  <h3>Stocke system</h3>
+                  <h3>Add New Product</h3>
                 </div>
                 <div class="col-12 col-sm-6">
                   <ol class="breadcrumb">
@@ -301,22 +301,113 @@
               </div>
             </div>
             <!-- add produto -->
-            <div class="col-md-12 project-list">
+            <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
                 <div class="card">
-                  <div class="row">
-                    <div class="col-md-6 p-0">
-                      <ul class="nav nav-tabs border-tab" id="top-tab" role="tablist">
-                        <!-- <li class="nav-item"><a class="nav-link active" id="top-home-tab" data-bs-toggle="tab" href="#top-home" role="tab" aria-controls="top-home" aria-selected="true"><i data-feather="target"></i>All</a></li>
-                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-bs-toggle="tab" href="#top-profile" role="tab" aria-controls="top-profile" aria-selected="false"><i data-feather="info"></i>Doing</a></li> -->
-                        <li class="nav-item"><a class="nav-link" id="contact-top-tab" data-bs-toggle="tab" href="#top-contact" role="tab" aria-controls="top-contact" aria-selected="false"><i data-feather="check-circle"></i>Product</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-6 p-0">                    
-                      <div class="form-group mb-0 me-0"></div><a class="btn btn-primary" href="add_product.php"> <i data-feather="plus-square"> </i>Create New product</a>
+                  <div class="card-body">
+                    <div class="form theme-form projectcreate">
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label>Project Title</label>
+                            <input class="form-control" type="text" placeholder="Project name *">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label>Client name</label>
+                            <input class="form-control" type="text" placeholder="Name client or company name">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Project Rate</label>
+                            <input class="form-control" type="text" placeholder="Enter project Rate">
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Project Type</label>
+                            <select class="form-select">
+                              <option>Hourly</option>
+                              <option>Fix price</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Priority</label>
+                            <select class="form-select">
+                              <option>Low</option>
+                              <option>Medium</option>
+                              <option>High</option>
+                              <option>Urgent</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Project Size</label>
+                            <select class="form-select">
+                              <option>Small</option>
+                              <option>Medium</option>
+                              <option>Big</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Starting date</label>
+                            <input class="datepicker-here form-control" type="text" data-language="en">
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="mb-3">
+                            <label>Ending date</label>
+                            <input class="datepicker-here form-control" type="text" data-language="en">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label>Enter some Details</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="mb-3">
+                            <label>Upload project file</label>
+                            <form class="dropzone" id="singleFileUpload" action="http://admin.pixelstrap.com/upload.php">
+                              <div class="dz-message needsclick"><i class="icon-cloud-up"></i>
+                                <h6>Drop files here or click to upload.</h6><span class="note needsclick">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="text-end"><a class="btn btn-secondary me-3" href="#">Add</a><a class="btn btn-danger" href="#">Cancel</a></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
           </div>
           <!-- Container-fluid Ends-->
         </div>

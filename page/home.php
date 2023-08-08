@@ -17,15 +17,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/font-awesome.css">
     <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/icofont.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/icofont.css">
     <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/themify.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/themify.css">
     <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/flag-icon.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/flag-icon.css">
     <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/feather-icon.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/feather-icon.css">
     <!-- Plugins css start-->
     <link rel="stylesheet" type="text/css" href="../assets/css/vendors/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/vendors/animate.css">
@@ -114,66 +114,6 @@
                   <input type="text" placeholder="Search here...">
                 </div>
               </li>
-              <li class="onhover-dropdown">
-                <div class="notification-box">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                      <g>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9961 2.51416C7.56185 2.51416 5.63519 6.5294 5.63519 9.18368C5.63519 11.1675 5.92281 10.5837 4.82471 13.0037C3.48376 16.4523 8.87614 17.8618 11.9961 17.8618C15.1152 17.8618 20.5076 16.4523 19.1676 13.0037C18.0695 10.5837 18.3571 11.1675 18.3571 9.18368C18.3571 6.5294 16.4295 2.51416 11.9961 2.51416Z" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.306 20.5122C13.0117 21.9579 10.9927 21.9751 9.68604 20.5122" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </g>
-                    </g>
-                  </svg><span class="badge rounded-pill badge-warning">4 </span>
-                </div>
-                <div class="onhover-show-div notification-dropdown">
-                  <div class="dropdown-title">
-                    <h3>Notification</h3><a class="f-right" href="cart.html"> <i data-feather="bell">                           </i></a>
-                  </div>
-                  <ul class="custom-scrollbar">
-                    <li>
-                      <div class="media">
-                        <div class="notification-img bg-light-primary"><img src="../assets/images/avtar/man.png" alt=""></div>
-                        <div class="media-body">
-                          <h5> <a class="f-14 m-0" href="user-profile.html">Allie Grater</a></h5>
-                          <p>Lorem ipsum dolor sit amet...</p><span>10:20</span>
-                        </div>
-                        <div class="notification-right"><a href="#"><i data-feather="x"></i></a></div>
-                      </div>
-                    </li>
-                    <li> 
-                      <div class="media">
-                        <div class="notification-img bg-light-secondary"><img src="../assets/images/avtar/teacher.png" alt=""></div>
-                        <div class="media-body">
-                          <h5> <a class="f-14 m-0" href="user-profile.html">Olive Yew</a></h5>
-                          <p>Lorem ipsum dolor sit amet...</p><span>09:20</span>
-                        </div>
-                        <div class="notification-right"><a href="#"><i data-feather="x"></i></a></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="media">
-                        <div class="notification-img bg-light-info"><img src="../assets/images/avtar/teenager.png" alt=""></div>
-                        <div class="media-body">
-                          <h5> <a class="f-14 m-0" href="user-profile.html">Peg Legge</a></h5>
-                          <p>Lorem ipsum dolor sit amet...</p><span>07:20</span>
-                        </div>
-                        <div class="notification-right"><a href="#"><i data-feather="x"></i></a></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="media">
-                        <div class="notification-img bg-light-success"><img src="../assets/images/avtar/chinese.png" alt=""></div>
-                        <div class="media-body">
-                          <h5> <a class="f-14 m-0" href="user-profile.html">Teri Dactyl</a></h5>
-                          <p>Lorem ipsum dolor sit amet...</p><span>05:20</span>
-                        </div>
-                        <div class="notification-right"><a href="#"><i data-feather="x"></i></a></div>
-                      </div>
-                    </li>
-                    <li class="p-0"><a class="btn btn-primary" href="#">Check all</a></li>
-                  </ul>
-                </div>
-              </li>
               <li class="maximize"><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g> 
@@ -257,10 +197,10 @@
                             <path d="M9.19557 13.8999H9.20457" stroke="#130F26" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </g>
                         </g>
-                      </svg><span class="lan-6">Widgets</span></a>
+                      </svg><span class="lan">Produtos</span></a>
                     <ul class="sidebar-submenu">
-                      <li><a href="general-widget.html">General</a></li>
-                      <li><a href="chart-widget.html">Chart</a></li>
+                      <li><a href="estoque.php">Estoque</a></li>
+                      <!-- <li><a href="chart-widget.html"></a></li> -->
                     </ul>
                   </li>
                   <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="#">
@@ -308,15 +248,41 @@
                       <ul class="nav nav-tabs border-tab" id="top-tab" role="tablist">
                         <!-- <li class="nav-item"><a class="nav-link active" id="top-home-tab" data-bs-toggle="tab" href="#top-home" role="tab" aria-controls="top-home" aria-selected="true"><i data-feather="target"></i>All</a></li>
                         <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-bs-toggle="tab" href="#top-profile" role="tab" aria-controls="top-profile" aria-selected="false"><i data-feather="info"></i>Doing</a></li> -->
-                        <li class="nav-item"><a class="nav-link" id="contact-top-tab" data-bs-toggle="tab" href="#top-contact" role="tab" aria-controls="top-contact" aria-selected="false"><i data-feather="check-circle"></i>Product</a></li>
+                        <li class="nav-item"><a class="nav-link" id="contact-top-tab" data-bs-toggle="tab" href="#top-contact" role="tab" aria-controls="top-contact" aria-selected="false"><i data-feather="check-circle"></i>Produto</a></li>
                       </ul>
                     </div>
                     <div class="col-md-6 p-0">                    
-                      <div class="form-group mb-0 me-0"></div><a class="btn btn-primary" href="add_product.php"> <i data-feather="plus-square"> </i>Create New product</a>
+                      <div class="form-group mb-0 me-0"></div><a class="btn btn-primary" href="add_product.php"> <i data-feather="plus-square"> </i>Cadastrar novo medicamento</a>
                     </div>
                   </div>
                 </div>
               </div>
+          </div>
+          <!-- Container-fluid Ends-->
+                    <!-- Container-fluid starts-->
+                    <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6 col-md-12 box-col-6">
+                <div class="card">
+                  <div class="card-header pb-0">
+                    <h5>Bar Chart</h5>
+                  </div>
+                  <div class="card-body chart-block">
+                    <canvas id="myBarGraph"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-md-12 box-col-6">
+                <div class="card">
+                  <div class="card-header pb-0">
+                    <h5>Line Chart</h5>
+                  </div>
+                  <div class="card-body chart-block">
+                    <canvas id="myGraph"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Container-fluid Ends-->
         </div>
@@ -371,6 +337,11 @@
     <script src="../assets/js/theme-customizer/customizer.js"></script>
     <!-- login js-->
     <!-- Plugin used-->
+    <!-- Plugins JS start-->
+    <script src="../assets/js/sidebar-menu.js"></script>
+    <script src="../assets/js/chart/chartjs/chart.min.js"></script>
+    <script src="../assets/js/chart/chartjs/chart.custom.js"></script>
+    <!-- Plugins JS Ends-->
   </body>
 
 <!-- Mirrored from admin.pixelstrap.com/zeta/theme/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Aug 2023 15:24:54 GMT -->

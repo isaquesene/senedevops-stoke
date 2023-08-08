@@ -1,0 +1,18 @@
+formlário (CADASTRO DO MEDICAMENTO)
+1 - Nome de Medicamento: Deca 900mg
+2 - Quantidade: 9 (1-9 = 8)
+3 - Data de entrada: 07/08/2023
+4 - Foto: imagem
+5 - Obs: Esse medidacemnt... 
+6 - VALOR $
+ENVIAR
+
+
+TABELA:
+Colunas contem, 1, 2, 3, 5
+
+
+FORMULÁRIO DE SAÍDA DE MEDICAMENTO.
+SELECT PARA ESCOLHER O MEDICAMENTO: Deca 900mg
+QUANTIDADE: 1
+ENVIAR

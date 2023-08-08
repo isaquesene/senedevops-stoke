@@ -311,16 +311,16 @@
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label>Project Title</label>
-                            <input class="form-control" type="text" placeholder="Project name *">
+                            <label>Nome do medicamento</label>
+                            <input class="form-control" type="text" placeholder="Nome do medicamento *">
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
                           <div class="mb-3">
-                            <label>Client name</label>
-                            <input class="form-control" type="text" placeholder="Name client or company name">
+                            <label>Quantidade</label>
+                            <input class="form-control" type="number">
                           </div>
                         </div>
                       </div>

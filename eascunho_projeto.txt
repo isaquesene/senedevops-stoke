@@ -1,10 +1,10 @@
 formlário (CADASTRO DO MEDICAMENTO)
-1 - Nome de Medicamento: Deca 900mg
+1 - codigo /    Nome med
 2 - Quantidade: 9 (1-9 = 8)
-3 - Data de entrada: 07/08/2023
+3 - Data de entrada: 07/08/2023 / validade
 4 - Foto: imagem
 5 - Obs: Esse medidacemnt... 
-6 - VALOR $
+6 - custo $ / liquido / lucro / venda
 ENVIAR
 
 

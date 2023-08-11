@@ -58,7 +58,7 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="component-alert.html">Estoque</a>
+                        <a href="estoque.php">Estoque</a>
                     </li>
                 </ul>
             </li>

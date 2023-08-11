@@ -220,7 +220,7 @@
                                 <div class="row">
                                     <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
                                         <h6 class="text-muted font-semibold">Falteiro</h6>
-                                        <h6 class="font-extrabold mb-0">Loratadina - 2</h6>
+                                        <h6 class="font-extrabold mb-0">Loratadina</h6>
                                     </div>
                                 </div>
                             </div>

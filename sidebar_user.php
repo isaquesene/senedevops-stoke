@@ -38,6 +38,15 @@
                 </li>
             </ul>
         </li>
+
+        <!-- suport senedevops -->
+        <li
+            class="sidebar-item">
+            <a href="https://portfolio-sene.vercel.app" class='sidebar-link'>
+            <i class="bi bi-question-square-fill"></i>
+                <span>Suporte</span>
+            </a>
+        </li>
         
     </ul>
 </div>

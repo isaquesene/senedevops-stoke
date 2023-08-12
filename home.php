@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Mazer Admin Dashboard</title>
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="assets/images/logo/ico.ico" />
     
     <link rel="stylesheet" href="assets/css/main/app.css">
     <link rel="stylesheet" href="assets/css/main/app-dark.css">
@@ -38,111 +39,17 @@
             </div>
         </div>
     </div>
+    <!-- sidebar menu -->
     <div class="sidebar-menu">
         <?php include 'sidebar_user.php'?>
     </div>
 </div>
         </div>
+        
+        <!-- navbar -->
 <div id="main" >
     <header class="mb-3">
-        <a href="#" class="burger-btn d-block d-xl-none">
-            <i class="bi bi-justify fs-3"></i>
-        </a>
-        <nav class="navbar navbar-expand navbar-light navbar-top">
-            <div class="container-fluid">
-                <!-- <a href="#" class="burger-btn d-block">
-                    <i class="bi bi-justify fs-3"></i>
-                </a> -->
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-lg-0">
-                        <li class="nav-item dropdown me-1">
-                            <a class="nav-link active dropdown-toggle text-gray-600" href="#" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class='bi bi-envelope bi-sub fs-4'></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                                <li>
-                                    <h6 class="dropdown-header">Mail</h6>
-                                </li>
-                                <li><a class="dropdown-item" href="#">No new mail</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown me-3">
-                            <a class="nav-link active dropdown-toggle text-gray-600" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                                <i class='bi bi-bell bi-sub fs-4'></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end notification-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li class="dropdown-header">
-                                    <h6>Notifications</h6>
-                                </li>
-                                <li class="dropdown-item notification-item">
-                                    <a class="d-flex align-items-center" href="#">
-                                        <div class="notification-icon bg-primary">
-                                            <i class="bi bi-cart-check"></i>
-                                        </div>
-                                        <div class="notification-text ms-4">
-                                            <p class="notification-title font-bold">Successfully check out</p>
-                                            <p class="notification-subtitle font-thin text-sm">Order ID #256</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="dropdown-item notification-item">
-                                    <a class="d-flex align-items-center" href="#">
-                                        <div class="notification-icon bg-success">
-                                            <i class="bi bi-file-earmark-check"></i>
-                                        </div>
-                                        <div class="notification-text ms-4">
-                                            <p class="notification-title font-bold">Homework submitted</p>
-                                            <p class="notification-subtitle font-thin text-sm">Algebra math homework</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <p class="text-center py-2 mb-0"><a href="#">See all notification</a></p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="dropdown">
-                        <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                            <div class="user-menu d-flex">
-                                <div class="user-name text-end me-3">
-                                    <h6 class="mb-0 text-gray-600">John Ducky</h6>
-                                    <p class="mb-0 text-sm text-gray-600">Administrator</p>
-                                </div>
-                                <div class="user-img d-flex align-items-center">
-                                    <div class="avatar avatar-md">
-                                        <img src="assets/images/faces/1.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
-                            <li>
-                                <h6 class="dropdown-header">Hello, John!</h6>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><i class="icon-mid bi bi-person me-2"></i> My
-                                    Profile</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="icon-mid bi bi-gear me-2"></i>
-                                    Settings</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="icon-mid bi bi-wallet me-2"></i>
-                                    Wallet</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#"><i
-                                        class="icon-mid bi bi-box-arrow-left me-2"></i> Logout</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include 'navbar.php' ?>
     </header>
         
             
@@ -159,7 +66,7 @@
                             <div class="card-body px-4 py-4-5">
                                 <div class="row">
                                     <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                        <h6 class="text-muted font-semibold">Medicamentos</h6>
+                                        <h6 class="text-muted font-semibold"><i class="bi bi-capsule-pill"></i> Medicamentos</h6>
                                         <h6 class="font-extrabold mb-0">112</h6>
                                     </div>
                                 </div>
@@ -171,7 +78,7 @@
                             <div class="card-body px-4 py-4-5">
                                 <div class="row">
                                     <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                        <h6 class="text-muted font-semibold">Entrada</h6>
+                                        <h6 class="text-muted font-semibold"><i class="bi bi-arrow-up"></i> Entrada</h6>
                                         <h6 class="font-extrabold mb-0">112</h6>
                                     </div>
                                 </div>
@@ -183,7 +90,7 @@
                             <div class="card-body px-4 py-4-5">
                                 <div class="row">
                                     <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                        <h6 class="text-muted font-semibold">Saida</h6>
+                                        <h6 class="text-muted font-semibold"><i class="bi bi-arrow-down"></i> Saida</h6>
                                         <h6 class="font-extrabold mb-0">13</h6>
                                     </div>
                                 </div>
@@ -195,7 +102,7 @@
                             <div class="card-body px-4 py-4-5">
                                 <div class="row">
                                     <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                        <h6 class="text-muted font-semibold">Falteiro</h6>
+                                        <h6 class="text-muted font-semibold"><i class="bi bi-exclamation-triangle"></i> Falteiro</h6>
                                         <h6 class="font-extrabold mb-0">Loratadina</h6>
                                     </div>
                                 </div>
@@ -205,14 +112,26 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-6">
                         <div class="card">
                             <div class="card-header">
-                                <h4>Novo Medicamento</h4>
+                                <h4>Entrada Medicamento</h4>
                             </div>
                             <div class="card-body">
                                 <div class="buttons">
-                                    <a href="add_product.php" class="btn btn-outline-success">Adicionar</a>
+                                    <a href="add_product.php" class="btn btn-outline-success"><i class="bi bi-plus-circle"></i> Adicionar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Saida Medicamento</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="buttons">
+                                    <a href="saida.php" class="btn btn-outline-danger"><i class="bi bi-x-circle"></i> Saida</a>
                                 </div>
                             </div>
                         </div>
@@ -242,11 +161,11 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-primary" width="32" height="32" fill="blue"
+                                            <!-- <svg class="bi text-primary" width="32" height="32" fill="blue"
                                                 style="width:10px">
                                                 <use
                                                     xlink:href="assets/images/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            </svg> -->
                                             <h5 class="mb-0 ms-3">Faturamento</h5>
                                         </div>
                                     </div>
@@ -260,11 +179,11 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="d-flex align-items-center">
-                                            <svg class="bi text-success" width="32" height="32" fill="blue"
+                                            <!-- <svg class="bi text-success" width="32" height="32" fill="blue"
                                                 style="width:10px">
                                                 <use
                                                     xlink:href="assets/images/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
+                                            </svg> -->
                                             <h5 class="mb-0 ms-3">Custos</h5>
                                         </div>
                                     </div>

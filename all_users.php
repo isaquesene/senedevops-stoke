@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="assets/css/main/app-dark.css">
     <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
     <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="assets/extensions/simple-datatables/style.css">
+    <link rel="stylesheet" href="assets/css/pages/simple-datatables.css">
     
 <link rel="stylesheet" href="assets/css/shared/iconly.css">
 
@@ -145,7 +148,7 @@
             </header>
             
 <div class="page-heading">
-    <h3>Adicionar novo medicamento</h3>
+    <h3>Todos Usuarios</h3>
 </div>
 <div class="page-content">
     <!-- breadcrumb -->
@@ -157,98 +160,83 @@
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="home.php">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Entrada</li>
+                        <li class="breadcrumb-item"><a href="#">Usuarios</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Todos usuarios</li>
                     </ol>
                 </nav>
             </div>
         </div>
     </div>
     <!-- // Basic multiple Column Form section start -->
-    <section id="multiple-column-form">
-        <div class="row match-height">
-            <div class="col-12">
-                <div class="card">
-                    <!-- <div class="card-header">
-                        <h4 class="card-title">Formulário</h4>
-                    </div> -->
-                    <div class="card-content">
-                        <div class="card-body">
-                            <form class="form">
-                                <div class="row">
-                                    <div class="col-md-3 col-12">
-                                        <div class="form-group">
-                                            <label for="first-name-column">Código nº</label>
-                                            <input type="text" id="first-name-column" class="form-control"
-                                                placeholder="Código do medicamento" name="cod_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-12">
-                                        <div class="form-group">
-                                            <label for="first-name-column">Quantidade nº</label>
-                                            <input type="text" id="first-name-column" class="form-control"
-                                                placeholder="Quantidade medicamento" name="quant_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="last-name-column">Nome</label>
-                                            <input type="text" id="last-name-column" class="form-control"
-                                                placeholder="Nome do medicamento" name="nome_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="city-column">Data de Validade</label>
-                                            <input type="date" id="city-column" class="form-control" placeholder="Validade"
-                                                name="validade_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="country-floating">Custo</label>
-                                            <input type="text" id="country-floating" class="form-control"
-                                                name="custo_med" placeholder="R$ --,--">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                    <div class="form-group">
-                                            <label for="country-floating">Venda</label>
-                                            <input type="text" id="country-floating" class="form-control"
-                                                name="venda_med" placeholder="R$ --,--">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <fieldset>
-                                        <div class="input-group mb-3">
-                                        <label for="country-floating">Imagem</label>
-                                            <div class="input-group mb-3">
-                                                <label class="input-group-text" for="inputGroupFile01"><i
-                                                        class="bi bi-upload"></i></label>
-                                                <input type="file" class="form-control" id="inputGroupFile01" name="image_med">
-                                            </div>
-                                        </div>
-
-                                        </fieldset>
-                                    </div>
-                                    <div class="form-group col-12">
-                                    <label for="country-floating">Observação</label>
-                                        <div class="form-group with-title mb-3">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="obs_med"></textarea>
-                                            <label>Descreva aqui...</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 d-flex justify-content-end">
-                                        <button type="submit" class="btn btn-primary me-1 mb-1">Salvar</button>
-                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">Limpar</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+    <section class="section">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Novo Usuario</h4>
+                </div>
+                <div class="card-body">
+                    <div class="buttons">
+                        <a href="add_user.php" class="btn btn-outline-success">Adicionar</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-striped" id="table1">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Perfil</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Graiden</td>
+                            <td>vehicula.aliquet@semconsequat.co.uk</td>
+                            <td>076 4820 8838</td>
+                            <td>Offenburg</td>
+                            <td>
+                                <span class="badge bg-success">Editar</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Dale</td>
+                            <td>fringilla.euismod.enim@quam.ca</td>
+                            <td>0500 527693</td>
+                            <td>New Quay</td>
+                            <td>
+                                <span class="badge bg-success">Editar</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nathaniel</td>
+                            <td>mi.Duis@diam.edu</td>
+                            <td>(012165) 76278</td>
+                            <td>Grumo Appula</td>
+                            <td>
+                                <span class="badge bg-danger">Excluir</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Darius</td>
+                            <td>velit@nec.com</td>
+                            <td>0309 690 7871</td>
+                            <td>Ways</td>
+                            <td>
+                                <span class="badge bg-success">Editar</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </section>
     <!-- // Basic multiple Column Form section end -->
 </div>
@@ -264,6 +252,9 @@
     </div>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/app.js"></script>
+
+    <script src="assets/extensions/simple-datatables/umd/simple-datatables.js"></script>
+    <script src="assets/js/pages/simple-datatables.js"></script>
 
 
 </body>

@@ -41,33 +41,8 @@
                 </div>
             </div>
     </div>
-    <div class="sidebar-menu">
-        <ul class="menu">
-            <li class="sidebar-title">Menu</li>
-            
-            <li
-                class="sidebar-item active ">
-                <a href="home.php" class='sidebar-link'>
-                    <i class="bi bi-grid-fill"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-stack"></i>
-                    <span>Produtos</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="component-alert.html">Estoque</a>
-                    </li>
-                </ul>
-            </li>
-            
-        </ul>
-    </div>
+    <!-- sidebar -->
+    <?php include 'sidebar_user.php';?>
 </div>
         </div>
         <div id="main">
@@ -457,10 +432,6 @@
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
                         <p>2023 &copy; SeneDevops</p>
-                    </div>
-                    <div class="float-end">
-                        <p>Developed <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                href="https://portfolio-sene.vercel.app">Isaque Sene</a></p>
                     </div>
                 </div>
             </footer>

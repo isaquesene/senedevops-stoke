@@ -39,7 +39,7 @@
             </div>
     </div>
     <!-- sidebar -->
-    <?php include 'sidebar_user.php';?>
+    <?php include 'sidebar_user.php'?>
 </div>
         </div>
         <div id="main">
@@ -157,8 +157,8 @@
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="home.php">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Entrada</li>
+                        <li class="breadcrumb-item"><a href="home.php">Produtos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">saida</li>
                     </ol>
                 </nav>
             </div>
@@ -176,68 +176,24 @@
                         <div class="card-body">
                             <form class="form">
                                 <div class="row">
-                                    <div class="col-md-3 col-12">
-                                        <div class="form-group">
-                                            <label for="first-name-column">Código nº</label>
-                                            <input type="text" id="first-name-column" class="form-control"
-                                                placeholder="Código do medicamento" name="cod_med">
-                                        </div>
+                                <div class="col-md-6 col-12">
+                                <label for="first-name-column">Selecione o medicamento</label>
+                                    <div class="input-group mb-3">
+                                        <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                                        <select class="form-select" id="inputGroupSelect01">
+                                            <option selected>Selecione...</option>
+                                            <option value="1">Loratadina</option>
+                                            <option value="2">Dramin</option>
+                                            <option value="3">Alegra</option>
+                                        </select>
                                     </div>
-                                    <div class="col-md-3 col-12">
-                                        <div class="form-group">
-                                            <label for="first-name-column">Quantidade nº</label>
-                                            <input type="text" id="first-name-column" class="form-control"
-                                                placeholder="Quantidade medicamento" name="quant_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="last-name-column">Nome</label>
-                                            <input type="text" id="last-name-column" class="form-control"
-                                                placeholder="Nome do medicamento" name="nome_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="city-column">Data de Validade</label>
-                                            <input type="date" id="city-column" class="form-control" placeholder="Validade"
-                                                name="validade_med">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="form-group">
-                                            <label for="country-floating">Custo</label>
-                                            <input type="text" id="country-floating" class="form-control"
-                                                name="custo_med" placeholder="R$ --,--">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
+                                </div>
+                                <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                            <label for="country-floating">Venda</label>
-                                            <input type="text" id="country-floating" class="form-control"
-                                                name="venda_med" placeholder="R$ --,--">
-                                        </div>
+                                        <label for="first-name-column">Quantidade nº</label>
+                                        <input type="number" class="form-control" name="quant_saida_med">
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <fieldset>
-                                        <div class="input-group mb-3">
-                                        <label for="country-floating">Imagem</label>
-                                            <div class="input-group mb-3">
-                                                <label class="input-group-text" for="inputGroupFile01"><i
-                                                        class="bi bi-upload"></i></label>
-                                                <input type="file" class="form-control" id="inputGroupFile01" name="image_med">
-                                            </div>
-                                        </div>
-
-                                        </fieldset>
-                                    </div>
-                                    <div class="form-group col-12">
-                                    <label for="country-floating">Observação</label>
-                                        <div class="form-group with-title mb-3">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="obs_med"></textarea>
-                                            <label>Descreva aqui...</label>
-                                        </div>
-                                    </div>
+                                </div>
                                     <div class="col-12 d-flex justify-content-end">
                                         <button type="submit" class="btn btn-primary me-1 mb-1">Salvar</button>
                                         <button type="reset" class="btn btn-light-secondary me-1 mb-1">Limpar</button>

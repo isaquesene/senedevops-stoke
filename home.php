@@ -39,31 +39,7 @@
         </div>
     </div>
     <div class="sidebar-menu">
-        <ul class="menu">
-            <li class="sidebar-title">Menu</li>
-            
-            <li
-                class="sidebar-item active ">
-                <a href="home.php" class='sidebar-link'>
-                    <i class="bi bi-grid-fill"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-stack"></i>
-                    <span>Produtos</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="estoque.php">Estoque</a>
-                    </li>
-                </ul>
-            </li>
-            
-        </ul>
+        <?php include 'sidebar_user.php'?>
     </div>
 </div>
         </div>
@@ -229,19 +205,19 @@
                 </div>
 
                 <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Novo Medicamento</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="buttons">
-                                <a href="add_product.php" class="btn btn-outline-success">Adicionar</a>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Novo Medicamento</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="buttons">
+                                    <a href="add_product.php" class="btn btn-outline-success">Adicionar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
                 <div class="row">
@@ -271,7 +247,7 @@
                                                 <use
                                                     xlink:href="assets/images/bootstrap-icons.svg#circle-fill" />
                                             </svg>
-                                            <h5 class="mb-0 ms-3">Europe</h5>
+                                            <h5 class="mb-0 ms-3">Faturamento</h5>
                                         </div>
                                     </div>
                                     <div class="col-6">
@@ -289,7 +265,7 @@
                                                 <use
                                                     xlink:href="assets/images/bootstrap-icons.svg#circle-fill" />
                                             </svg>
-                                            <h5 class="mb-0 ms-3">America</h5>
+                                            <h5 class="mb-0 ms-3">Custos</h5>
                                         </div>
                                     </div>
                                     <div class="col-6">
@@ -297,24 +273,6 @@
                                     </div>
                                     <div class="col-12">
                                         <div id="chart-america"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="d-flex align-items-center">
-                                            <svg class="bi text-danger" width="32" height="32" fill="blue"
-                                                style="width:10px">
-                                                <use
-                                                    xlink:href="assets/images/bootstrap-icons.svg#circle-fill" />
-                                            </svg>
-                                            <h5 class="mb-0 ms-3">Indonesia</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <h5 class="mb-0">1025</h5>
-                                    </div>
-                                    <div class="col-12">
-                                        <div id="chart-indonesia"></div>
                                     </div>
                                 </div>
                             </div>

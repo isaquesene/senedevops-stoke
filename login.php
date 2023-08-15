@@ -45,7 +45,7 @@
                         Keep me logged in
                     </label>
                 </div> -->
-                <a href="home.php" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</a>
+                <a href="primeiro_acesso.php" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</a>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
                 <!-- <p class="text-gray-600">Don't have an account? <a href="auth-register.html" class="font-bold">Sign
@@ -54,8 +54,8 @@
             </div>
         </div>
         <footer>
-            <div class="footer clearfix mb-0 text-muted">
-                <div class="float-end">
+            <div class="footer clearfix mb-0 text-muted d-flex justify-content-center">
+                <div class="float-center">
                     <p>Developed <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
                             href="https://portfolio-sene.vercel.app">Isaque Sene</a></p>
                 </div>

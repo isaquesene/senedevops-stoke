@@ -65,7 +65,7 @@
                             <img class="card-img-top img-fluid" src="assets/images/home-page.jpg" alt="Card image cap"
                                 style="height: 20rem" />
                             <div class="card-body">
-                                <h4 class="card-title">Top Image Cap</h4>
+                                <h4 class="card-title">Clinica Vinci</h4>
                                 <p class="card-text">
                                     Seja bem-vindo ao STOKE, sistema de estoque de Medicamento. Sistema gerencia a entrada e saida de insumos.
                                     Você poderar acompanhar a evolução do seu estoque por gráficos e tabelas intuitivas, gerar relatórios e contar 

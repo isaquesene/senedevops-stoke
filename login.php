@@ -45,7 +45,7 @@
                         Keep me logged in
                     </label>
                 </div> -->
-                <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
+                <a href="home.php" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</a>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
                 <!-- <p class="text-gray-600">Don't have an account? <a href="auth-register.html" class="font-bold">Sign
